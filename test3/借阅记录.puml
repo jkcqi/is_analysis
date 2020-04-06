@@ -1,0 +1,11 @@
+@startuml
+
+object 借阅记录{
+编号: 1
+借书日期: 2019-xx-xx
+归还日期: 2019-xx-xx
+借阅读者借书卡号：xxxxxxx
+登记管理员职工号：xxxxxxx
+}
+
+@enduml

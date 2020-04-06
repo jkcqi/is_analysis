@@ -1,0 +1,11 @@
+@startuml
+
+object 读者{
+借书卡号：201710414XXX
+姓名：xxx
+身份证号:xxxxxxx
+已借图书数量:9
+逾期次数:0
+}
+
+@enduml
