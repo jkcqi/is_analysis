@@ -1,0 +1,22 @@
+@startuml
+actor 管理员
+participant "借书界面" as A
+participant "操作验证" as B
+participant "检查用户" as C
+database 数据库 as D
+participant "返回信息" as E
+activate A
+管理员 -> A :1.登录
+管理员 -> A :2.检查借书卡
+管理员 -> A :3.显示用户信息
+A -> B :4.借书
+activate C
+B -> C :5.检查用户
+C -> D :6.有权限借书
+C -[#0000FF]> B :无权限借书
+B -[#0000FF]> A :借书失败
+activate D
+D -> E :7.数据库操作完成
+activate E
+E -> A :借书成功
+@enduml

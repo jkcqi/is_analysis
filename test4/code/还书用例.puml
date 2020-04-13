@@ -1,0 +1,22 @@
+@startuml
+actor 读者
+actor 管理员
+participant "还书界面" as A
+participant "操作验证" as B
+participant "还书扫描" as C
+participant "确认操作" as D
+database 数据库 as E
+participant "返回信息" as F
+读者 -> 管理员 :1.图书交付
+activate A
+管理员 -> A :2.登录
+A -> B:3.还书操作
+activate C
+B -> C :4.扫描数据条形码
+C -> D :5.确认还书
+activate D
+D -> E :6.还书正确
+activate E
+E -> F :7.数据库更新
+F -> A :8.返回还书成功
+@enduml
