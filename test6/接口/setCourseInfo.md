@@ -1,5 +1,3 @@
-<!-- markdownlint-disable MD033-->
-<!-- 禁止MD033类型的警告 https://www.npmjs.com/package/markdownlint -->
 
 # 接口：getCourseInfo  [返回](../README.md)
 用例： [选择课程](../用例/选择课程.md)
@@ -30,9 +28,9 @@
             "status": true,
             "info": null,
             "user_id":"201610111",    
-            "user_name":"张三",
+            "user_name":"李蛋",
             "course_name":"IT新技术"
-            "course_term":"2016级"           
+            "course_term":"2017级"           
         }
         
         

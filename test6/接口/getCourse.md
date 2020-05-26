@@ -25,7 +25,7 @@
             "data": [
                 {"COURSE_ID": "04450810",
                 "COURSE_NAME": "软件系统分析与设计",
-                "COURSE_TERM": "2016级",
+                "COURSE_TERM": "2017级",
                 "TEACHER_NAME": "赵卫东",
                 },
                 {

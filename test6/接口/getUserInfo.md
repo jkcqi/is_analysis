@@ -1,6 +1,4 @@
-﻿<!-- markdownlint-disable MD033-->
-<!-- 禁止MD033类型的警告 https://www.npmjs.com/package/markdownlint -->
-
+﻿
 # 接口：getUserInfo  [返回](../README.md)
 用例： [查看用户信息](../用例/查看用户信息.md),[修改用户信息](../用例/修改用户信息.md),[选择课程](../用例/选择课程.md)
 
@@ -28,8 +26,8 @@
             "status": true,
             "info": null,
             "ID":"2101201281",    
-            "name":"张三",
-            "class_dept":"软件工程1班"
+            "name":"李蛋",
+            "class_dept":"软件工程2班"
             "github_username":"ABCD",
             "type":"学生"            
         }

@@ -1,6 +1,4 @@
-﻿<!-- markdownlint-disable MD033-->
-<!-- 禁止MD033类型的警告 https://www.npmjs.com/package/markdownlint -->
-
+﻿
 # 接口：getStudents  [返回](../README.md)
 用例： [学生列表](../用例/学生列表.md)
 
@@ -30,10 +28,10 @@
                 {"WEB_SUM": "Y,Y,Y,Y,Y,N",
                 "RESULT_SUM": "83.75,90,80,80,85,N",
                 "GITHUB_USERNAME": "Chinajuedui",
-                "STUDENT_ID": "201510315203",
-                "CLASS": "软件(本)15-1",
-                "NAME": "陈松华",
-                "UPDATE_DATE": "2018-04-02 13:48:01"},
+                "STUDENT_ID": "123456",
+                "CLASS": "软件(本)17-2",
+                "NAME": "某某某",
+                "UPDATE_DATE": "2020-05-20 13:48:01"},
                 {
                 ...其他学生
                 }
